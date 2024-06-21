@@ -1,0 +1,12 @@
+adafruit-circuitpython-ads1x15
+RPi.GPIO
+tensorflow
+numpy
+awscrt
+awsiot
+scipy
+pandas
+PyEMD
+scikit-learn
+keras
+joblib
