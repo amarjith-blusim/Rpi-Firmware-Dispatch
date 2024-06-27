@@ -15,7 +15,7 @@ highcut = 6
 lowcut = 0.01
 
 # MQQT
-basedir = os.path.join(os.path.dirname(os.path.abspath(__file__)),'BLS_certs')
+basedir = f"{os.path.dirname(os.path.abspath(__file__))}/BLS_certs"
 sid = "BLS01"
 endpoint='a3pb4fdke2uq4b-ats.iot.ap-southeast-1.amazonaws.com' ## required endpoint
 port=8883 
@@ -30,6 +30,7 @@ proxy_host = None
 proxy_port= 8080
 
 #Parameters for S3
+
 
 # HR 
 V_CHANNEL_THRESHOLD = 5
